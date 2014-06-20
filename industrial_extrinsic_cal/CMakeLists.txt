@@ -110,7 +110,8 @@ add_executable(trigger_service src/ros_scene_trigger_server.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
-# add_dependencies(industrial_extrinsic_cal_node industrial_extrinsic_cal_generate_messages_cpp)
+add_dependencies(industrial_extrinsic_cal industrial_extrinsic_cal_generate_messages_cpp)
+add_dependencies(trigger_service industrial_extrinsic_cal_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(industrial_extrinsic_cal yaml-cpp ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
