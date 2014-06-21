@@ -4,6 +4,7 @@ scenes:
 -
      scene_id: 0
      trigger_type: 1
+     trigger: NO_WAIT_TRIGGER
      observations: 
      -
           camera: Asus1
@@ -15,6 +16,7 @@ scenes:
 -
      scene_id: 1
      trigger_type: 1
+     trigger: NO_WAIT_TRIGGER
      observations: 
      -
           camera: Asus2

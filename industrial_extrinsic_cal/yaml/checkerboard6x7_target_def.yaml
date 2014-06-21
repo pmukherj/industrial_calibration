@@ -6,14 +6,14 @@ static_targets:
     target_type: 0
     target_frame: target_frame
     target_rows: 6
-    target_cols: 5
+    target_cols: 7
     angle_axis_ax: 0.0
     angle_axis_ay: 0.0
     angle_axis_az: 0.0
     position_x: 0.0
     position_y: 0.0
     position_z: 0.0
-    num_points: 30
+    num_points: 42
     transform_interface: ros_lti
     points:
     - pnt: [0.000,0.000,0.000]
@@ -46,3 +46,21 @@ static_targets:
     - pnt: [0.324,0.432,0.000]
     - pnt: [0.432,0.432,0.000]
     - pnt: [0.540,0.432,0.000]
+    - pnt: [0.000,0.432,0.000]
+    - pnt: [0.108,0.432,0.000]
+    - pnt: [0.216,0.432,0.000]
+    - pnt: [0.324,0.432,0.000]
+    - pnt: [0.432,0.432,0.000]
+    - pnt: [0.540,0.432,0.000]
+    - pnt: [0.000,0.540,0.000]
+    - pnt: [0.108,0.540,0.000]
+    - pnt: [0.216,0.540,0.000]
+    - pnt: [0.324,0.540,0.000]
+    - pnt: [0.432,0.540,0.000]
+    - pnt: [0.540,0.540,0.000]
+    - pnt: [0.000,0.648,0.000]
+    - pnt: [0.108,0.648,0.000]
+    - pnt: [0.216,0.648,0.000]
+    - pnt: [0.324,0.648,0.000]
+    - pnt: [0.432,0.648,0.000]
+    - pnt: [0.540,0.648,0.000]
